@@ -62,4 +62,8 @@ song.artist_name = artist_name
 song
 end
 
+def destroy_all
+  self.all.clear
+end
+
 end
