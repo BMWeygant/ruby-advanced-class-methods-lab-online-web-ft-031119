@@ -23,7 +23,7 @@ song
 end
 
 def self.create_by_name(song_name)
-song_name = Song.new
+song_name = self.create
 song_name.save
 song_name
 end
