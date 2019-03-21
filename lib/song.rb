@@ -44,7 +44,7 @@ self.all.sort_by{|song_name| song_name.name}
 end
 
 def self.new_from_filename(filename)
-
+track_info = filename.split(" - ")
 end
 
 end
