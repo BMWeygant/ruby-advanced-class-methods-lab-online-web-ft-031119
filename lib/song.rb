@@ -48,7 +48,9 @@ track_info = filename.split(" - ")
 artist_name = track_info[0]
 song_name = track_info[1]
 
-self.create
+song = self.new
+song.name = song_name
+song.artist_name = artist_name
 end
 
 end
