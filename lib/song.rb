@@ -17,7 +17,7 @@ song
 end
 
 def self.new(name)
-new_song = name.new
+
 end
 
 
