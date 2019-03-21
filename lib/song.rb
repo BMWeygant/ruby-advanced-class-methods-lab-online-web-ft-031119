@@ -16,7 +16,7 @@ song.save
 song
 end
 
-def self.new(name)
+def self.new_by_name(name)
 
 end
 
