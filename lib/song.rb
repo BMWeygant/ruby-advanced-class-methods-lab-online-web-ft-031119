@@ -28,7 +28,7 @@ song.name = song_name
 song
 end
 
-def find_by_name(song_name)
+def self.find_by_name(song_name)
 
 end
 
