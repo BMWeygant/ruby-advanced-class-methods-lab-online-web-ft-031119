@@ -45,6 +45,10 @@ end
 
 def self.new_from_filename(filename)
 track_info = filename.split(" - ")
+artist_name = track_info[0]
+song_name = track_info[1]
+
+
 end
 
 end
