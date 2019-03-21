@@ -16,9 +16,9 @@ song.save
 song
 end
 
-
-
-
+def self.new(name)
+new_song = Song.new
+end
 
 
 
