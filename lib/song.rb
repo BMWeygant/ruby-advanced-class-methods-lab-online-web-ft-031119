@@ -24,7 +24,7 @@ end
 
 def self.create_by_name(song_name)
 song = self.create
-song.create_by_name = song_name
+song.cname = song_name
 song
 end
 
